@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 html{
     font-size: 62.5%;
@@ -12,10 +13,10 @@ body{
     background-color: bisque;
 }
     /* Encabezado */
-.container{
+.container-head{
     display:flex;
     justify-content: center;
-    background-color: lightsalmon;
+    background-color: #721817;
     padding: 3px;
 }
 h1{
@@ -25,13 +26,16 @@ h1{
     padding: 10px;
     color: white;
 }
+
+    /* Navegacion */
 .nav{
     width: 100%;
     height: 30px;
-    background-color: rgb(255, 165, 130);
+    background-color: #721817;
     padding: 3px;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.24) ;
 }
 .nav-list{
     display: flex;
@@ -49,4 +53,28 @@ h1{
 .nav-list__item__link{
     text-decoration: none;
     color: aliceblue;
+}
+    /* Contenido Principal */
+main{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 100%;
+    height: 14vh;
+    background-color: #fff;
+    border: 1px solid whitesmoke;
+    margin: 10px 0px;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.14) , 0px 1px 10px 0px rgba(0,0,0,0.12) , 0px 2px 4px -1px rgba(0,0,0,0.2) ;
+}
+.titulo-post-link{
+    color: #000;
+}
+.description-post{
+    color: rgb(103, 103, 103);
+    margin: 2px 0px;
+    padding: 3px 0px;
 }
