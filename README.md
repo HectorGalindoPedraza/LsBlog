@@ -1,1 +1,1 @@
-#	<h1>HiperBlog</h1>
+#	<h1>HyperBlog</h1>
