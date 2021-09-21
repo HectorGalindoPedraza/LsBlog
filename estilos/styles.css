@@ -72,11 +72,13 @@ main{
 }
 .titulo-post-link{
     color: #000;
+    font-size: 1.3rem;
 }
 .description-post{
     color: rgb(103, 103, 103);
     margin: 2px 0px;
     padding: 3px 0px;
+    font-weight: 500;
 }
     /* Footer */
 footer{
