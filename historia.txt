@@ -1,1 +1,5 @@
  Hola! esta es mi primer colaboracion en GitHub, y valla si vale la pena practicar
+
+ Hola! soy el jefe de Laurita, y es su primer dia de trabajo.
+
+ -Curso Profesional de Git y GitHub de @Platzi :)
