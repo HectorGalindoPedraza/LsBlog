@@ -3,3 +3,4 @@
  Hola! soy el jefe de Laurita, y es su primer dia de trabajo.
 
  -Curso Profesional de Git y GitHub de @Platzi :)
+ -Creo que utilizare este quipo para algo 
