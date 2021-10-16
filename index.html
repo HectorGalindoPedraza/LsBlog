@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./estilos/styles.css">
     <link rel="stylesheet" href="./estilos/tablet.css" media="screen and (min-width: 600px)">
     <link rel="stylesheet" href="./estilos/desktop.css" media="screen and (min-width: 800px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Encabezado + Navegacion -->
@@ -18,270 +21,49 @@
         </div>
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-list__item blog"><a href="./index.html" class="nav-list__item__link">Inicio</a></li>
-                    <li class="nav-list__item entradas"><a href="./paginas/entradas.html" class="nav-list__item__link">Entradas</a></li>
-                    <li class="nav-list__item escribir"><a href="./paginas/escribir.html" class="nav-list__item__link">Escribir</a></li>
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__item__link">inicio</a></li>
+                    <li class="nav-list__item"><a href="./paginas/entradas.html" class="nav-list__item__link">entradas</a></li>
+                    <li class="nav-list__item"><a href="./paginas/escribir.html" class="nav-list__item__link">escribir</a></li>
                 </ul>
             </nav>
     </header>
     <!-- Contenido principal -->
-    <main class="content">
-        <article class="container">
-                <a href="./articulos/html.html" class="titulo-post-link"><h2 class="titulo-post">¿Qué es HTML?</h2></a>
-                <p class="description-post"> lorem lorem*2 rro voluptas. Eveniet quasi velit quaerat saepe animi illo soluta dolorum qui, veniam laboriosam aliquid nihil asperiores non praesentium recusandae temporibus magni quis.
-                </p>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link"><h2 class="titulo-post">¿Qué es CSS?</h2></a>
-                <p class="description-post"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi, velit laudantium inventore di lorem ipsum dolor sit amLorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, id arferendis dicta praesentium voluptati
-                    !</p>
+    <main>
+        <h2 class="section-one--title">Nuevos Articulos</h2>
+        <section>
+            <div class="card">
+                   <div class="post">
+                        <div class="post-image">
+                            <img src="https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="post image">
+                        </div>
+                        <div class="post-text-container">
+                            <p class="title-post"> <a href="#">CSS el lenguaje que diseña la web</a></p>
+                            <p class="description-post">CSS es el lenguaje de diseño para darle estilos a la web</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-image">
+                            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="post image">
+                        </div>
+                        <div class="post-text-container">
+                            <p class="title-post"> <a href="#">HTML5 el lenguaje de la web</a></p>
+                            <p class="description-post">HTML5 es un lenguaje de marcado de hypertexto</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-image">
+                            <img src="https://images.pexels.com/photos/5483071/pexels-photo-5483071.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="post image">
+                        </div>
+                        <div class="post-text-container">
+                            <p class="title-post"><a href="#">JavaScript una web interactiva</a></p>
+                            <p class="description-post">JavaScript es el lenguaje de programacion para la web</p>
+                        </div>
+                    </div>
             </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link"><h2 class="titulo-post">¿Qué es GIT?</h2></a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                    </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link"><h2 class="titulo-post">¿Qué es la web?</h2></a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                    </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link"><h2 class="titulo-post">¿Qué es internet?</h2></a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                    </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es JavaScript?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es Java?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es Python?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es Rust?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es PHP?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es C?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es C++?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es C#?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es .NET?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es BASIC?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es PASCAL?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es COBOL?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es Arduino?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es Internet of Things?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es la programación?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué son los diagramas de flujo?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es un algoritmo?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es el factorial de un numero?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es Vue?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es Linux?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es un arbol de compresion binaria?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
-        <article class="container">
-            <div class="post">
-                <a href="#" class="titulo-post-link">
-                    <h2 class="titulo-post">¿Qué es un PCB?</h2>
-                </a>
-                <p class="description-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sint atque itaque
-                    repellendus. Eum, quaerat ullam aliquid ab incidunt sunt ex cum assumenda tempora quae ducimus molestiae,
-                </p>
-            </div>
-        </article>
+        </section>
+        <section>
+            <h2 class="section-two--title">Web</h2>
+        </section>
     </main>
     <!-- Footer -->
     <footer>
