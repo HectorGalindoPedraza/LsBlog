@@ -161,6 +161,13 @@ section{
 .divider-article img{
     margin-left: 5px;
 }
+    .web-articles{
+        width: 90%;
+        height: 80px;
+        padding-left: 10px;
+        display: flex;
+        overflow-x: scroll;
+    }
  .section-two--title{
     font-size: 1.8rem;
     color: #fff;
@@ -170,7 +177,7 @@ section{
 .container-articles{
     width: 255px;
     height: 64px;
-    margin: 0 auto;
+    margin: 0 10px;
     background-color: #335C67; 
     display: flex;
     flex-direction: row;
